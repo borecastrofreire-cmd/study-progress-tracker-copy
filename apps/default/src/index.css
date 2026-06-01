@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Apple-inspired light palette ──────────────────────────────────────────── */
+:root {
+  --bg: 0 0% 100%;              /* #ffffff */
+  --surface: 240 5% 96%;        /* #f2f2f7 */
+  --surface-elevated: 0 0% 100%; /* #ffffff */
+  --surface-higher: 240 5% 94%; /* #ebebef */
+  --text-primary: 0 0% 0%;
+  --text-secondary: 240 1% 45%; /* #8e8e93 */
+  --text-tertiary: 240 1% 55%;  /* #aeaeb2 */
+  --separator: 240 4% 90%;      /* #e5e5ea */
+  --separator-subtle: 240 4% 95%; /* #f2f2f7 */
+  --apple-accent: 211 100% 50%;       /* #007aff Apple blue */
+  --apple-accent-hover: 211 100% 54%; /* #1a8aff */
+  --success: 142 68% 48%;       /* #34c759 Apple green */
+  --warning: 35 100% 50%;       /* #ff9500 Apple orange */
+  --danger: 4 90% 58%;          /* #ff3b30 Apple red */
+
+  /* ── shadcn/tailwind semantic tokens (mapped to Apple palette) ──────── */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 7%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 7%;
+  --primary: 211 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 240 5% 96%;
+  --secondary-foreground: 0 0% 11%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 1% 45%;
+  --accent: 240 5% 96%;
+  --accent-foreground: 0 0% 11%;
+  --destructive: 4 90% 58%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 240 4% 90%;
+  --input: 240 4% 90%;
+  --ring: 211 100% 50%;
+  --radius: 0.75rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Geist', 'Inter', system-ui, sans-serif;
+  background: hsl(var(--bg));
+  color: hsl(var(--text-primary));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+  word-spacing: 0.02em;
+}
+
+/* Scrollbar — minimal */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--separator));
+  border-radius: 99px;
+}
+
+/* Hide scrollbar utility */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { scrollbar-width: none; -ms-overflow-style: none; }
+
+/* ── Apple-style skeleton ─────────────────────────────────────────────────── */
+@keyframes shimmer-apple {
+  0% { opacity: 0.3; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0.3; }
+}
+.skeleton {
+  background: hsl(var(--surface));
+  animation: shimmer-apple 2s ease-in-out infinite;
+}
+
+/* ── Focus ring ───────────────────────────────────────────────────────────── */
+.focus-ring:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px hsl(var(--bg)), 0 0 0 5px hsl(var(--ring) / 0.35);
+}
+
+/* ── Global input fix ─────────────────────────────────────────────────────── */
+input,
+textarea,
+select {
+  color-scheme: light;
+  color: hsl(var(--text-primary));
+  caret-color: hsl(var(--text-secondary));
+  background-color: hsl(var(--surface));
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: hsl(var(--text-tertiary)) !important;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: opacity(0.4);
+  cursor: pointer;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-text-fill-color: hsl(var(--text-primary)) !important;
+  -webkit-box-shadow: 0 0 0 1000px hsl(var(--surface)) inset !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+/* Prose overrides */
+.prose-invert code {
+  background: hsl(var(--surface-higher));
+  padding: 0.1em 0.35em;
+  border-radius: 6px;
+  font-size: 0.85em;
+}

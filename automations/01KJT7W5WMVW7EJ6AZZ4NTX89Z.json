@@ -1,0 +1,126 @@
+{
+  "version": "2",
+  "flowTitle": "🔔 Push Notification Sender",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "tag": {
+            "type": "string",
+            "description": "Input for tag"
+          },
+          "body": {
+            "type": "string",
+            "description": "Input for body"
+          },
+          "title": {
+            "type": "string",
+            "description": "Input for title"
+          },
+          "userId": {
+            "type": "string",
+            "description": "Input for userId"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-e5f6-7890-abcd-ef1234560010",
+      "valid": false,
+      "displayName": "Find subscriptions for user",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "tasks.find",
+        "input": {
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "nBpkzyFPSrBaFrug"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "a1b2c3d4-e5f6-7890-abcd-ef1234560011",
+      "valid": true,
+      "displayName": "Build push payload & filter by userId",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.categorize",
+        "input": {
+          "input": "All push subscriptions from project (JSON): {{ a1b2c3d4-e5f6-7890-abcd-ef1234560010 }}. Filter only entries where userId matches: {{ trigger[\"body\"][\"userId\"] }}. Return a JSON array of objects with fields: endpoint (string), keys_json (string, parse the JSON string to get auth and p256dh). Return empty array [] if none match.",
+          "output": {
+            "type": "custom",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "subscriptions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "auth": {
+                        "type": "string"
+                      },
+                      "p256dh": {
+                        "type": "string"
+                      },
+                      "endpoint": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "http_response",
+      "body": {
+        "type": "json",
+        "data": {
+          "type": "basic",
+          "payload": [
+            {
+              "subscriptions": "{{ a1b2c3d4-e5f6-7890-abcd-ef1234560011[\"subscriptions\"] }}"
+            },
+            {
+              "title": "{{ trigger[\"body\"][\"title\"] }}"
+            },
+            {
+              "body": "{{ trigger[\"body\"][\"body\"] }}"
+            },
+            {
+              "tag": "{{ trigger[\"body\"][\"tag\"] }}"
+            }
+          ]
+        }
+      },
+      "key": "trigger"
+    }
+  ],
+  "variables": {
+    "nBpkzyFPSrBaFrug": {
+      "id": "nBpkzyFPSrBaFrug",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

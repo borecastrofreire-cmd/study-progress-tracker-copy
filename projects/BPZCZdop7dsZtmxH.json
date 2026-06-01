@@ -1,0 +1,252 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "text": {
+          "ops": [
+            {
+              "insert": "🔐 Usuarios"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "17b3d10c-eae9-44f4-8d72-412470d0e45b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__auth:Bore__"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "8c244b370747c1930a4e0967254778ddbb69f6a409e62beebe5f92191a09a3a1"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f1f444a0-8d4a-425b-913f-1c44e031fe1c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__auth:bore__"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "8c244b370747c1930a4e0967254778ddbb69f6a409e62beebe5f92191a09a3a1"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7e95f7b1-2d0b-4426-b5cf-8650a82d6910",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__auth:antonio__"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "58421036b7fbb6e307418f2297a463f0f1eab241bd435c642b6d6d873283f797"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "55994364-860c-47e5-acb7-a95e9692323d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__auth:jensu__"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "483029d526219f816e8e8f6a9de07b422633dba180ffc26faac22862a017519f"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "329de13f-b9d4-4864-8de2-f47087e862e3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__inv:bore__jensu__1772136436713"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "{\"fromUser\":\"bore\",\"toUser\":\"jensu\",\"subjects\":[{\"id\":\"6194919a-1dd0-4606-8737-f882a3f32394\",\"text\":\"Neuropsicología\",\"status\":\"opt-pending\",\"color\":\"emerald\",\"emoji\":\"🧠\",\"topics\":[{\"id\":\"e352d8c5-16b2-4b57-b8ae-117cb8dbafe3\",\"text\":\"Tema 1: Introducción a la Neuropsicología\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":14,\"currentPage\":14,\"status\":\"opt-done\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"b0250637-d001-404f-ab5f-9c0543e168d4\",\"text\":\"Tema 2: Principios de la función cerebral\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":39,\"currentPage\":3,\"status\":\"opt-progress\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"5477164c-7014-4479-813d-8c4cc090e975\",\"text\":\"Tema 3: Trastornos de la atención\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":18,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"eed4a4fb-39a5-4716-8ea6-5d9a5c8a6910\",\"text\":\"Tema 4: Agnosias\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":17,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"dc66510d-213e-4f8a-8630-e424e9a941df\",\"text\":\"Tema 5: Apraxias\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":16,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"c675b00c-9812-4936-9561-8dce380b8a4b\",\"text\":\"Tema 6: Afasias y trastornos relacionados\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":28,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"25b98b87-ce37-4723-a41b-e0686b5d900c\",\"text\":\"Tema 7: Amnesias\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":24,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"d2fd21ea-d524-4bf4-adbf-c7ad51c4d4f9\",\"text\":\"Tema 8: Neuropsicología del lóbulo frontal\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":19,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"}]},{\"id\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\",\"text\":\"Psicopatología II\",\"status\":\"opt-pending\",\"color\":\"cyan\",\"emoji\":\"⛓️‍💥\",\"topics\":[{\"id\":\"cf7c1c95-c4c1-4176-9954-a2d511662bed\",\"text\":\"Tema 1: Ansiedad y trastornos de ansiedad\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":17,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"5ae68879-7d24-48df-9703-3bcc2f0165dd\",\"text\":\"Tema 2: Distintos tipos de Ansiedad\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":52,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"8f7dcc75-0a20-4c92-a7da-eee9470028e0\",\"text\":\"Tema 3: TOC y trastornos relacionados\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":31,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"26f1cb52-637a-43eb-ba4d-0c6d45aa769d\",\"text\":\"Tema 4: Trastornos relacionados con trauma y estrés\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":14,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"b22461a6-f5d3-4b2e-8486-c80fc45972f9\",\"text\":\"Tema 5: Trastornos de síntomas somáticos y trastornos relacionados\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":17,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"c55190e8-2f84-4800-8af5-b80d5eb4c015\",\"text\":\"Tema 6: Trastornos disociativos\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":9,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"63c7bc4f-522e-4af8-b613-20961e078877\",\"text\":\"Tema 7: Trastornos de la personalidad\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":8,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"}]}],\"status\":\"accepted\"}"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "390c2cbb-19cb-4627-8dcb-f516a3d11adf",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__auth:giulio__"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "6557739a67283a8de383fc5c0997fbec7c5721a46f28f3235fc9607598d9016b"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "942b557d-71f5-4eca-95cd-36dfdc1b3a57",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__auth:milena__"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "dfaab096bd21200516e6780b2dd4c5dbff2f8f1172b9dfc3741331d2fe6af997"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8e3459cc-b63e-41b9-8fa5-08ef032b961e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "__inv:bore__milena__1778233505790"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "note": {
+                "type": "text/markdown",
+                "value": "{\"fromUser\":\"bore\",\"toUser\":\"milena\",\"subjects\":[{\"id\":\"970b9f8c-8fbc-45b4-b036-434e9e670d35\",\"text\":\"Traballo II\",\"status\":\"opt-pending\",\"color\":\"blue\",\"emoji\":\"⚒️\",\"topics\":[{\"id\":\"a2a4120b-736e-473e-831c-9d226376548e\",\"text\":\"Tema 1: El poder en las organizaciones\",\"subject\":\"Traballo II\",\"startPage\":1,\"totalPages\":6,\"currentPage\":6,\"status\":\"opt-done\",\"parentId\":\"970b9f8c-8fbc-45b4-b036-434e9e670d35\"},{\"id\":\"9670ac6d-b0f1-423a-a7ea-e7a1048bd364\",\"text\":\"Tema 2: El conflicto y la gestión del conflicto\",\"subject\":\"Traballo II\",\"startPage\":1,\"totalPages\":14,\"currentPage\":14,\"status\":\"opt-done\",\"parentId\":\"970b9f8c-8fbc-45b4-b036-434e9e670d35\"},{\"id\":\"17615ad1-3862-4bc2-ad4a-3a996de380e8\",\"text\":\"Tema 3: La socialización organizacional (SO)\",\"subject\":\"Traballo II\",\"startPage\":1,\"totalPages\":12,\"currentPage\":12,\"status\":\"opt-done\",\"parentId\":\"970b9f8c-8fbc-45b4-b036-434e9e670d35\"},{\"id\":\"916de195-b130-4c73-b798-215bf09944a9\",\"text\":\"Tema 4: La estructura organizacional (EO)\",\"subject\":\"Traballo II\",\"startPage\":1,\"totalPages\":13,\"currentPage\":0,\"status\":\"opt-progress\",\"parentId\":\"970b9f8c-8fbc-45b4-b036-434e9e670d35\"},{\"id\":\"1e94794d-f48f-4b36-97b0-df116bdd1408\",\"text\":\"Tema 5: El cambio organizacional (CO)\",\"subject\":\"Traballo II\",\"startPage\":1,\"totalPages\":10,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"970b9f8c-8fbc-45b4-b036-434e9e670d35\"},{\"id\":\"816eff84-052d-4ec1-9302-ecafef562239\",\"text\":\"Tema 6: La salud laboral\",\"subject\":\"Traballo II\",\"startPage\":1,\"totalPages\":12,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"970b9f8c-8fbc-45b4-b036-434e9e670d35\"}]},{\"id\":\"6194919a-1dd0-4606-8737-f882a3f32394\",\"text\":\"Neuropsicología\",\"status\":\"opt-pending\",\"color\":\"emerald\",\"emoji\":\"🧠\",\"topics\":[{\"id\":\"e352d8c5-16b2-4b57-b8ae-117cb8dbafe3\",\"text\":\"Tema 1: Introducción a la Neuropsicología\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":14,\"currentPage\":14,\"status\":\"opt-done\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"b0250637-d001-404f-ab5f-9c0543e168d4\",\"text\":\"Tema 2: Principios de la función cerebral\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":39,\"currentPage\":9,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"5477164c-7014-4479-813d-8c4cc090e975\",\"text\":\"Tema 3: Trastornos de la atención\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":18,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"eed4a4fb-39a5-4716-8ea6-5d9a5c8a6910\",\"text\":\"Tema 4: Agnosias\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":17,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"dc66510d-213e-4f8a-8630-e424e9a941df\",\"text\":\"Tema 5: Apraxias\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":16,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"c675b00c-9812-4936-9561-8dce380b8a4b\",\"text\":\"Tema 6: Afasias y trastornos relacionados\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":28,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"25b98b87-ce37-4723-a41b-e0686b5d900c\",\"text\":\"Tema 7: Amnesias\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":24,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"},{\"id\":\"d2fd21ea-d524-4bf4-adbf-c7ad51c4d4f9\",\"text\":\"Tema 8: Neuropsicología del lóbulo frontal\",\"subject\":\"Neuro\",\"startPage\":1,\"totalPages\":19,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"6194919a-1dd0-4606-8737-f882a3f32394\"}]},{\"id\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\",\"text\":\"Psicopatología II\",\"status\":\"opt-pending\",\"color\":\"cyan\",\"emoji\":\"⛓️‍💥\",\"topics\":[{\"id\":\"cf7c1c95-c4c1-4176-9954-a2d511662bed\",\"text\":\"Tema 1: Ansiedad y trastornos de ansiedad\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":17,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"5ae68879-7d24-48df-9703-3bcc2f0165dd\",\"text\":\"Tema 2: Distintos tipos de Ansiedad\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":52,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"8f7dcc75-0a20-4c92-a7da-eee9470028e0\",\"text\":\"Tema 3: TOC y trastornos relacionados\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":31,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"26f1cb52-637a-43eb-ba4d-0c6d45aa769d\",\"text\":\"Tema 4: Trastornos relacionados con trauma y estrés\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":14,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"b22461a6-f5d3-4b2e-8486-c80fc45972f9\",\"text\":\"Tema 5: Trastornos de síntomas somáticos y trastornos relacionados\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":17,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"c55190e8-2f84-4800-8af5-b80d5eb4c015\",\"text\":\"Tema 6: Trastornos disociativos\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":9,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"},{\"id\":\"63c7bc4f-522e-4af8-b613-20961e078877\",\"text\":\"Tema 7: Trastornos de la personalidad\",\"subject\":\"Psicopatología II\",\"startPage\":1,\"totalPages\":8,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"f763e1ec-2bd9-4f6b-bbae-6056c2cae50c\"}]},{\"id\":\"9a89a998-7549-4fa0-855a-ea525e793349\",\"text\":\"Tratamentos II\",\"status\":\"opt-pending\",\"color\":\"emerald\",\"emoji\":\"🩹\",\"topics\":[{\"id\":\"d8943599-4db9-42ea-9ac9-d3364e3f5032\",\"text\":\"Tema 1: Los cimientos de la psicoterapia\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":8,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"},{\"id\":\"f14149bf-c2c4-4437-ac28-5ba6ad34a163\",\"text\":\"Tema 2: 60 años de investigación en psicoterapia\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":13,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"},{\"id\":\"ae8f31e2-94cf-40bd-9e53-a4f6531e7ba5\",\"text\":\"Tema 3: El panorama al margen del cognitivo-conductual\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":18,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"},{\"id\":\"3d5419de-8741-43b3-869d-c0ae38c373d8\",\"text\":\"Tema 4: El proceso terapéutico\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":7,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"},{\"id\":\"a96a814c-3f00-4428-91de-008d3007cec2\",\"text\":\"Tema 5: La relación terapéutica\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":9,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"},{\"id\":\"3d7a3165-1aef-490a-9ebe-6d3a9e367a9a\",\"text\":\"Tema 6: El cambio terapéutico\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":10,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"},{\"id\":\"92748dc2-b17e-428f-8085-59121b0a7f88\",\"text\":\"Tema 7: El efecto placebo\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":10,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"},{\"id\":\"6c461935-80f3-4b67-8377-020eed993b95\",\"text\":\"Tema 8: Tendencias actuales en psicoterapia\",\"subject\":\"Tratamentos II\",\"startPage\":1,\"totalPages\":9,\"currentPage\":0,\"status\":\"opt-pending\",\"parentId\":\"9a89a998-7549-4fa0-855a-ea525e793349\"}]}],\"status\":\"pending\"}"
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🔬"
+    }
+  }
+}
